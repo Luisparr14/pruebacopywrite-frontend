@@ -15,7 +15,7 @@ function App() {
       const data = await response.json()
       if (data.error) return alert(data.error)
       const {text} = data;
-      setWords([...words, text]);
+      setWords([text, ...words]);
       e.target.search.value = '';
     } catch (error) {
       console.error(error);
