@@ -53,7 +53,7 @@ export default function NavBar({ onSubmit }) {
           sx={{ display: 'flex', justifyContent: 'center'}}>
           <Input onSubmit={onSubmit} >
             <StyledInputBase
-              placeholder="Send text"
+              placeholder="Type text"
               inputProps={{ 'aria-label': 'search' }}
               name="search"
             />
