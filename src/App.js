@@ -1,5 +1,4 @@
 
-import './App.css';
 import NavBar from './components/NavBar';
 import WordList from './components/WordList';
 import { useState } from 'react';
