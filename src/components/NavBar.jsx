@@ -47,7 +47,7 @@ const SendButton = styled(Button)(({ theme }) => ({
 
 export default function NavBar({ onSubmit }) {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1, position:'sticky', top:0 }}>
       <AppBar position="static">
         <Toolbar
           sx={{ display: 'flex', justifyContent: 'center'}}>
